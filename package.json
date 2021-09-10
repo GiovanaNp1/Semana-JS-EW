@@ -1,0 +1,32 @@
+{
+  "name": "@giovananp1/semana-javascript-expert05",
+  "version": "1.0.0",
+  "description": "Seja bem vindo(a) à quinta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.",
+  "main": "welcome.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch --runInBand",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --converage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickWendel/semana-javascript-expert05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickWendel/semana-javascript-expert05/issues"
+  },
+  "homepage": "https://github.com/ErickWendel/semana-javascript-expert05#readme",
+  "devDependencies": {
+    "jest": "^27.1.1"
+  },
+  "dependencies": {
+    "pino": "6.8",
+    "pino-pretty": "5.1",
+    "socket.io": "4.1"
+  }
+}
